@@ -55,7 +55,7 @@ export default function App() {
    
   const onPress = () => {
     rollDice();
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
   };
   return (
     <View style={styles.container}>
